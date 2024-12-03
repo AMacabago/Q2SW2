@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Create an Account</title>
+</head>
+<body class="bg-primary text-light">
+
+<div class="container mt-3 mb-3">
+    <h1 class="text-center">Robotics Club Registration Form</h1>
+    <div class="container mt-3 mb-3">
+    <form>
+        <div class="alert alert-primary alert-dismissible fade show"> 
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>DIRECTIONS:</strong>
+            Fill up the form below.
+        </div>
+        <div class="row align-items-center g-3">          
+            <div class="col"> 
+                <label for="inputUsername" class="visually-hidden">Username</label>
+                <input type="text" class="form-control" id="inputUsername" placeholder="Username" required>
+            </div>
+            <div class="col"> 
+                <label for="inputEmail" class="visually-hidden">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+            </div>
+            <div class="col">
+                    <label for="inputAge" class="visually-hidden">Age</label>
+                    <input type="number" class="form-control" id="inputAge" placeholder="Age" required>
+                </div>
+
+                <div class="col">
+                    <label for="inputPhoneNumber" class="visually-hidden">Phone Number</label>
+                    <input type="tel" class="form-control" id="inputPhoneNumber" placeholder="+1234567890">
+                </div>
+            </div>
+        </div>
+
+            <div class="level mb-3">
+                <fieldset>
+                    <label for='selectProject' class=''>Level</label>
+                    <div class="">
+                        <input type="radio" id="beginner" name="level" value="beginner">
+                        <label for="beginner">Beginner</label><br>
+                        <input type="radio" id="intermediate" name="level" value="intermediate">
+                        <label for ="intermediate">Intermediate</label><br>
+                        <input type="radio" id="advanced", name="level", value="advanced">
+                        <label for="advanced">Advanced</label><br>
+                    </div>
+                </fieldset>
+            </div>
+            
+            <div class="level mb-3">
+            <label for='selectProject' class=>Robotics Experience Level</label>
+                <br>
+                <input type='checkbox' id='topic1' value='HTML'> Programming <br/>
+                <input type='checkbox' id='topic2' value='CSS'> Electronics<br/>
+                <input type='checkbox' id='topic3' value='JavaScript'> Mechanical Design <br/>
+            </div>
+            <!-- Dropdown for Projects -->
+            <div class='level mb-3'>
+                <label for='selectProject' class=''>Prefered Robotics Projects</label> 
+                <select id='selectProject' class='form-select'>
+                    <option selected>Select a project...</option>
+                    <option value='1'>Project 1</option>
+                    <option value='2'>Project 2</option>
+                    <option value='3'>Project 3</option>
+                </select>
+            </div>
+
+            <!-- Textarea for Reason -->
+            <div class='level mb-3'>
+                <label for='textareaReason' class='form-label'>Statement of Interest</label>
+                <textarea id='textareaReason' rows='3' class='form-control'></textarea>
+            </div>
+
+
+            <!-- Submit Button -->
+            <div class='level mb-3'>
+                <button type='submit' class='btn btn-primary'>Submit</button>
+            </div> 
+        </div>
+
+    </form>
+</div>
+</div>
+
+<!-- Footer Information -->
+<div class="footer">
+  <p> Sittie Ainah Macabago | 9 Sapphire</p>
+</div>
+
+</body>
+</html>

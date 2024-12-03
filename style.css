@@ -1,0 +1,22 @@
+body{
+	background-color: black;
+}
+.container {
+	background-color: black;
+	padding: 15px;
+	border-radius: 20px;
+}
+.container mt-3 {
+	background-color: black;
+	padding: 15px;
+	border-radius: 20px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:  black;
+  color: white;
+  text-align: center;
+}
